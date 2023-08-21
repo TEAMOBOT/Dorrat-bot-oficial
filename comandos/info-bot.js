@@ -10,10 +10,10 @@ handler.all = async function (m) {
         itemCount: -999999,
         status: 1,
         surface: 1,
-        message: "†𝐃⃟𝕺𝐑⃯𝐑𝐇⃯𝚵𝐓᪣𝕭⃯𝚹⃯𝐓⃤†",
+        message: "𝐁𝐨𝐭𝐀𝐱𝐱𝐜",
         orderTitle: "Bang",
         thumbnail: fs.readFileSync("./Menu2.jpg"),
-        sellerJid: "0@s.whatsapp.net",
+        sellerJid: "0@s.whatapp.net",
       },
     },
   };
