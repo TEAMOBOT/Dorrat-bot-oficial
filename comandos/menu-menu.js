@@ -82,7 +82,7 @@ var completomenu = `*╭━━❍𝐁𝐨𝐭𝐀𝐱𝐱𝐜❍━━╮*
  ║══════════════════ 
  ║ ➱_${usedPrefix}join *link del grupo*_  
  ║ ➱_*minimo 30 miembros*_ 
- ╚════ ≪ •❈• ≫ ════╝ 
+ ╚════ ≪ 𖡽𖡽 ≫ ════╝ 
   
 
   ┗─━─━─━∞𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 ∞━─━─━─┛「💻」 
@@ -128,28 +128,28 @@ var completomenu = `*╭━━❍𝐁𝐨𝐭𝐀𝐱𝐱𝐜❍━━╮*
  𖥥𖥳${usedPrefix}tiktokstalk <nombre de usuario 
  └────ׂ─ׂ─ׂ─ׂ── 
 ┗─━─━──━─━∞◆∞━─━─━─━─━─┛
- ╔═════ RPG ═════╗  
- ║ ❒ ${usedPrefix}cazar a 
- ║ ❒ ${usedPrefix}aventura 
- ║ ❒ ${usedPrefix}balance 
- ║ ❒︎ ${usedPrefix}claim 
- ║ ❒︎ ${usedPrefix}top 
- ║ ❒︎ ${usedPrefix}heal 
- ║ ❒ ${usedPrefix}cartera 
- ║ ❒ ${usedPrefix}inventory  
- ║ ❒︎ ${usedPrefix}levelup 
- ║ ❒︎ ${usedPrefix}myns 
- ║ ❒ ${usedPrefix}perfil 
- ║ ❒︎ ${usedPrefix}work 
- ║ ❒ ${usedPrefix}rob <@tag 
- ║ ❒︎ ${usedPrefix}minar 
- ║ ❒︎ ${usedPrefix}buy 
- ║ ❒ ${usedPrefix}minardiamantes  
- ║ ❒ ${usedPrefix}minardorracoins  
- ║ ❒︎ ${usedPrefix}transfer <tipo> <cantidad> <@tag 
- ║ ❒ ${usedPrefix}verificar 
- ║ ❒︎ ${usedPrefix}unreg <numero de serie> 
- ╚════ ≪ •❈• ≫ ════╝ 
+• - - - - - -RPG- - - - - - •
+ 𖡽 ${usedPrefix}cazar a 
+ 𖡽 ${usedPrefix}aventura 
+ 𖡽 ${usedPrefix}balance 
+ 𖡽 ${usedPrefix}claim 
+ 𖡽 ${usedPrefix}top 
+ 𖡽 ${usedPrefix}heal 
+ 𖡽 ${usedPrefix}cartera 
+ 𖡽 ${usedPrefix}inventory  
+ 𖡽 ${usedPrefix}levelup 
+ 𖡽 ${usedPrefix}myns 
+ 𖡽 ${usedPrefix}perfil 
+ 𖡽 ${usedPrefix}work 
+ 𖡽 ${usedPrefix}rob <@tag 
+ 𖡽 ${usedPrefix}minar 
+ 𖡽 ${usedPrefix}buy 
+ 𖡽 ${usedPrefix}minardiamantes  
+ 𖡽 ${usedPrefix}minardorracoins  
+ 𖡽 ${usedPrefix}transfer <tipo> <cantidad> <@tag 
+ 𖡽 ${usedPrefix}verificar 
+ 𖡽 ${usedPrefix}unreg <numero de serie> 
+ • - - - - - - ☆- - - - - - •
   
  ╔═════ GAMES ═════╗  
  ║ ❒ ${usedPrefix}es facil 
@@ -519,10 +519,10 @@ var completomenu = `*╭━━❍𝐁𝐨𝐭𝐀𝐱𝐱𝐜❍━━╮*
  ║ ❒ _${usedPrefix}report *texto*_ 
  ╚════ ≪ •❈• ≫ ════╝ 
   
- ╔══════════════════╗  
- ║ ❒ 𝐁𝐨𝐭𝐀𝐱𝐱𝐜-𝐌𝐃       
- ║ ❒ 𝐁𝐘 𝙰𝚇𝙸𝙴𝙻-𝐎𝐅𝐂        
- ╚══════════════════╝ 
+ ─━─━─━∞◆∞━─━─━─ 
+ ❒ 𝐁𝐨𝐭𝐀𝐱𝐱𝐜-𝐌𝐃       
+ ❒ 𝐁𝐘 𝙰𝚇𝙸𝙴𝙻-𝐎𝐅𝐂        
+┗─━─━─━∞◆∞━─━─━─┛
  `.trim();
  await  conn.sendMessage(m.chat,{ image:{ url:"https://telegra.ph/file/dde9bd1f999297449d139.jpg", }, caption: completomenu, 
 contextInfo: { mentionedJid: [m.sender], externalAdReply: { title: `MENU - COMPLETO`, 
