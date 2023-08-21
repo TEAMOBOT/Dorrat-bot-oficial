@@ -33,8 +33,8 @@ let handler = async (m, {conn, usedPrefix}) => {
 let info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-║❒  [👑] *CREADOR: DIEGO-OFC*
-║❒  [#️⃣] *NUMERO: +528442286089*
+║❒  [👑] *DUEÑO: AXIEL-BN*
+║❒  [#️⃣] *NUMERO: +528123422244*
 ║❒  [🛠️] *PREFIJO: ${usedPrefix}*
 ║❒  [💬] *CHATS PRIVADOS: ${chats.length - groups.length}*
 ║❒  [💭] *CHAT DE GRUPOS: ${groups.length}* 
@@ -52,22 +52,20 @@ let info = `
 ║❒  [📦] *DISCO DURO:*  ${json.disk}
 ║❒  [🖥️] *CPU USADA:*  ${json.cpu} 
 ╠
-*╠═〘 𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐜𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭 〙 ═*`.trim();
+*╠═〘 𝐓𝐡𝐞 𝐀𝐱𝐱𝐜- 𝐁𝐨𝐭 〙 ═*`.trim();
   
 conn.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/7ec5032386dfe878f99ab.jpg", }, caption: info,
 contextInfo: {
 mentionedJid: [m.sender],
 externalAdReply: {
 title: `INFO - BOT`,
-sourceUrl: "http://paypal.me/DorratBotOficial",
 mediaType: 1,
 showAdAttribution: true,
-thumbnailUrl: "https://telegra.ph/file/7ec5032386dfe878f99ab.jpg",
 }}}, { quoted: m })
 }  
 handler.help = ["infobot"]
 handler.tags = ["info", "tools"]
-handler.command = /^(infobot|informacionbot|infodorrat|informacióndorrat|informaciondorrats)$/i;
+handler.command = /^(infobot|informacionbot|infoAXXC|informaciónorrat|informaciondrats)$/i;
 export default handler
 function clockString(ms) {
   let h = Math.floor(ms / 3600000);
