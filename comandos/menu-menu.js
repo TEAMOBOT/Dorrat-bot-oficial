@@ -48,8 +48,8 @@ await conn.sendMessage(m.chat, {
   "containsAutoReply": true,  
   "mediaType": 1,   
   "thumbnail": fotogodzx,  
-  "mediaUrl": `https://chat.whatsapp.com/BmsElfLOkC6DYTo4rqaQcf`,  
-  "sourceUrl": `https://chat.whatsapp.com/BmsElfLOkC6DYTo4rqaQcf`  
+  "mediaUrl": `https://chat.whatsapp.com/CMABi78Vd9xH8aNF73eE2x`,  
+  "sourceUrl": `https://chat.whatsapp.com/CMABi78Vd9xH8aNF73eE2x`  
   }  
   }  
   }, { quoted: m })
