@@ -56,12 +56,12 @@ await conn.sendMessage(m.chat, {
 }  
 if (command == "menucompleto" || command == "allmenu") {
 await m.reply(`[ 𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎 𝐌𝐄𝐍𝐔... ]`);                 
-var completomenu = `*╭━━❍𝑺𝒉𝒂𝒅𝒐𝒘𝑩𝒐𝒕❍━━╮* 
+var completomenu = `*╭━━❍𝐁𝐨𝐭𝐀𝐱𝐱𝐜❍━━╮* 
  *┣━━━▢ ❤𝐇𝐎𝐋𝐀, ${username}❤*• 
  *┃╭━━━━━━━━━━━━━━━━╾•* 
  *┃┃  ❍ ${ucapan()} ❍* 
  *┃┣━━━━━━━━━━━━━━━━╾•* 
- *┃┃ ⋄ NUMERO DEL CREADOR: wa.me/528442286089 (𝐍𝐎 𝐁𝐎𝐓)* 
+ *┃┃ ⋄ NUMERO DEL CREADOR: wa.me/8123422244 (𝐍𝐎 𝐁𝐎𝐓)* 
  *┃┃ ⋄ VERSION » ${vs}* 
  *┃┃ ⋄ FECHA » ${week}, ${date}* 
  *┃┃ ⋄ TIEMPO ACTIVO » ${uptime}* 
@@ -70,42 +70,22 @@ var completomenu = `*╭━━❍𝑺𝒉𝒂𝒅𝒐𝒘𝑩𝒐𝒕❍━━�
  *┃╰━━━━━━━━━━━━━━━━╾•* 
  *╰━━━╼𝑺𝒉𝒂𝒅𝒐𝒘𝑩𝒐𝒕╾━━━╯* 
   
- ▧ 「 *I N F O R M A C I O N* 」  
- ‣ ︎Comando: ${usedPrefix}grupos
- ‣ Descripción: mirar los grupos oficiales del bot
+ ▧ 「 *I N F O R M A C I O N* 「「
  ‣ Comando: ${usedPrefix}estado
  ‣ Descripción: Mirar el estado del bot
- ‣ ︎Comando: ${usedPrefix}terminos
- ‣ Descripción: Mirar los términos y condiciones del bot
- ‣ Comando: ${usedPrefix}instalarbot
- ‣ Descripción: información sobre la instalación de zirax
- ‣ Comando: ${usedPrefix}infobot
- ‣ Descripción: dar información sobre el bot
- ‣ Comando: ${usedPrefix}grouplist
- ‣ Descripción: lista de grupos donde está el bot
  ‣ Comando: ${usedPrefix}owner
  ‣ Descripción: Información sobre el creador
- ‣ Comando: ${usedPrefix}script
- ‣ Descripción: Mandar script del bot
  ‣ comando: _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜) 
  ‣ Descripción: info del bot
  └──···
 
  ╔═════════════╗  
- ║ *<UNE UN BOT A TU GRUPO/>* 
+ ║ *<COMPRA UN BOT A TU GRUPO/>* 
  ║══════════════════ 
  ║ ➱_${usedPrefix}join *link del grupo*_  
  ║ ➱_*minimo 30 miembros*_ 
  ╚════ ≪ •❈• ≫ ════╝ 
   
- ╔═════ JADIBOT 🤖 ═════╗  
- ‣ Comando: ${usedPrefix}serbot
- ‣ Descripción: Convertirte en un bot
- ‣ Comando: ${usedPrefix}stop
- ‣ Descripción: Apagar tu bot
- ‣ Comando: ${usedPrefix}bots
- ‣ Descripción: Lista de bots Conectados
- ╚════ ≪ •❈• ≫ ════╝ 
 
   ┌─「💻𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑」 
  ├Comando: ${usedPrefix}modapk
@@ -286,9 +266,6 @@ var completomenu = `*╭━━❍𝑺𝒉𝒂𝒅𝒐𝒘𝑩𝒐𝒕❍━━�
  ├➢${usedPrefix}destraba  
  └────ׂ─ׂ─ׂ─ׂ─── 
   
- ┌──「🛡️𝐆𝐈𝐓𝐇𝐔𝐁」─ 
- ├➢/instalarbot 
- └────ׂ─ׂ─ׂ─ׂ─── 
   
  ┌──「🎑𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒」 
  ├➢_${usedPrefix}togifaud *<responde a un video>*_ 
@@ -567,8 +544,8 @@ var completomenu = `*╭━━❍𝑺𝒉𝒂𝒅𝒐𝒘𝑩𝒐𝒕❍━━�
  ╚════ ≪ •❈• ≫ ════╝ 
   
  ╔══════════════════╗  
- ║ ❒ 𝐙𝐈𝐑𝐀𝐗-𝐁𝐎𝐓-𝐌𝐃       
- ║ ❒ 𝐁𝐘 𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂        
+ ║ ❒ 𝐁𝐨𝐭𝐀𝐱𝐱𝐜-𝐌𝐃       
+ ║ ❒ 𝐁𝐘 𝙰𝚇𝙸𝙴𝙻-𝐎𝐅𝐂        
  ╚══════════════════╝ 
  `.trim();
  await  conn.sendMessage(m.chat,{ image:{ url:"https://telegra.ph/file/dde9bd1f999297449d139.jpg", }, caption: completomenu, 
