@@ -23,15 +23,13 @@ var handler = async (m, {
    const db = "./galeria/menudorrat3.jpg"
   
 if (command == "menu" || command == "menú") {
-let uwu = `╦══════════════════ ⪨
-┃│✾ ⋟ *${ucapan()}*
-┃│✾ ⋟ *tenemos varios tipos de menus*
-┃│✾ ⋟ 1
-┃│✾ ⋟ *#menucompleto*
-┃│✾ ⋟ 2
-┃│✾ ⋟ *#descargasmenu*
-┃│✾ ⋟ *ejemplo:*
-┃│✾ ⋟ *#menucompleto*
+let uwu = `—————————×∆×———————————
+┃│⋟ *${ucapan()}*
+┃│⋟ *tenemos varios tipos de menus*
+┃│⋟ 1
+┃│⋟ *#menucompleto*
+┃│⋟ 2
+┃│⋟ *#descargasmenu*
 ┃╰══ ⪨`
 
 await conn.sendMessage(m.chat, {   
@@ -61,14 +59,14 @@ var completomenu = `*╭━━❍𝐁𝐨𝐭𝐀𝐱𝐱𝐜❍━━╮*
  *┃╭━━━━━━━━━━━━━━━━╾•* 
  *┃┃  ❍ ${ucapan()} ❍* 
  *┃┣━━━━━━━━━━━━━━━━╾•* 
- *┃┃ ⋄ ADQUIRIR BOT A: wa.me/8123422244 (𝐍𝐎 𝐁𝐎𝐓)* 
+ *┃┃ ⋄ ADQUIRIR BOT A: wa.me/8123422244   (𝐍𝐎 𝐁𝐎𝐓)* 
  *┃┃ ⋄ VERSION » ${vs}* 
  *┃┃ ⋄ FECHA » ${week}, ${date}* 
  *┃┃ ⋄ TIEMPO ACTIVO » ${uptime}* 
  *┃┃ ⋄ LIBRERIA » ${library}* 
  *┃┃ ⋄ USUARIOS » ${Object.keys(global.db.data.users).length}* 
- *┃╰━━━━━━━━━━━━━━━━╾•* 
- *╰━━━╼𝐁𝐨𝐭𝐀𝐱𝐱𝐜╾━━━╯* 
+ *┃╰━━━━━━━━━━━━━━━━╾* 
+ 
   
  ▧ 「 *I N F O R M A C I O N* 「「
  ‣ Comando: ${usedPrefix}estado
@@ -87,71 +85,49 @@ var completomenu = `*╭━━❍𝐁𝐨𝐭𝐀𝐱𝐱𝐜❍━━╮*
  ╚════ ≪ •❈• ≫ ════╝ 
   
 
-  ┌─「💻𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑」 
- ├Comando: ${usedPrefix}modapk
- ├Descripcion: Descargar apks mod
- ├Ejemplo: ${usedPrefix}modapk Facebook 
- ├➢Comando: ${usedPrefix}videodocumento
- ├Descripcion: Descargar videos pesados en documento.
- ├ejemplo: *${usedPrefix}videodocumento <enlace>*
- ├➢Comando: ${usedPrefix}fb
- ├Descripcion: Descargar videos de Facebook
- ├ejemplo: *${usedPrefix}fb <link>*
- ├➢Comando: ${usedPrefix}twitter 
- ├Descripcion: Descargar videos de twitter
- ├ejemplo: *${usedPrefix}Twitter <link>*_
- ├➢Comando: ${usedPrefix}xnxxdl
- ├Descripción: descargar videos de xnxx.com
- ├Ejemplo: ${usedPrefix}xnxxdl *<enlace / link / url>*
- ├➢Comando: ${usedPrefix}instagram
- ├Descripciob: Descargar videos de instagram 
- ├ejemplo: *${usedPrefix}ig <enlace / link / url*
- ├➢Comando: ${usedPrefix}mediafire
- ├Descripción: Descargar archivos de mediafire
- ├Ejemplo: ${usedPrefix}Mediafire <enlace / link / url 
- ├➢Comando: ${usedPrefix}gdrive 
- ├Descripción: Descargar archivos de gdrive
- ├Ejemolo: ${usedPrefix}gdrive *<enlace / link / url>*
- ├➢Comando: ${usedPrefix}gitclone
- ├Descripción: Descargar repositorios de Github
- ├Ejemplo: ${usedPrefix}gitclone *<enlace / link / url>*
- ├➢Comando: ${usedPrefix}tiktok 
- ├Descripción: Descargar videos de tintok
- ├ejemplo:${usedPrefix}Tintok *<enlace / link / url*
- ├➢Comando: ${usedPrefix}ytmp3
- ├Descripcion:Descargar Audios de Youtube
- ├Ejemplo: ${usedPrefix}ytmp3 *<enlace / link / url* 
- ├➢Comando: ${usedPrefix}video 
- ├Descripcion: Descargar videos de Youtube
- ├Ejemplo: ${usedPrefix}video <enlace / link / url 
- ├➢${usedPrefix}play.1 
- ├Descripción: Descargar audios de Youtube
- ├Ejemplo: ${usedPrefix}play.1 <texto / enlace / link / url 
- ├➢Comando: ${usedPrefix}play.2 
- ├Descripción:Descargar videos de Youtube
- ├Ejemplo: ${usedPrefix}play.2 <texto / enlace / link / url 
- ├➢Comando: ${usedPrefix}musica
- ├Descripción: Descargar musicas de Youtube
- ├Ejemplo: ${usedPrefix}musica <texto 
- ├➢Comando: ${usedPrefix}spotify 
- ├Descripción: Descargar musica de Spotify
- ├Ejemplo: ${usedPrefix}spotify *texto*
- ├➢Comando: ${usedPrefix}imagen 
- ├Ejemplo: ${usedPrefix}spotify *texto*
- ├➢Comando: ${usedPrefix}pinteret *texto*
- ├Descripción: Descargar imágenes de pinterest
- ├➢Comando: ${usedPrefix}wallpaper 
- ├Descripcion: Descargar wallpaper/fondos
- ├Ejemplo: ${usedPrefix}wallpaper *texto*
- ├➢${usedPrefix}wallpaper2 <texto 
- ├➢Comando: ${usedPrefix}pptiktok
- ├Descripción: ver perfiles de tintok
- ├Ejemplo: ${usedPrefix}pptiktok <nombre de usuario 
- ├➢${usedPrefix}igstalk <nombre de usuario 
- ├➢${usedPrefix}igstory *<nombre de usuario>*_
- ├➢${usedPrefix}tiktokstalk <nombre de usuario 
+  ┗─━─━─━∞𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 ∞━─━─━─┛「💻」 
+ 𖥥𖥳 Comando: ${usedPrefix}modapk
+ 𖥥jemplo: ${usedPrefix}modapk Facebook 
+ 𖥥𖥳Comando: ${usedPrefix}videodocumento
+ 𖥥ejemplo: *${usedPrefix}videodocumento <enlace>*
+ 𖥥𖥳Comando: ${usedPrefix}fb
+ 𖥥ejemplo: *${usedPrefix}fb <link>*
+ 𖥥𖥳Comando: ${usedPrefix}twitter 
+ 𖥥ejemplo: *${usedPrefix}Twitter <link>*_
+ 𖥥𖥳Comando: ${usedPrefix}xnxxdl
+ 𖥥Ejemplo: ${usedPrefix}xnxxdl *<enlace / link / url>*
+ 𖥥𖥳Comando: ${usedPrefix}instagram
+ 𖥥ejemplo: *${usedPrefix}ig <enlace / link / url*
+ 𖥥𖥳Comando: ${usedPrefix}mediafire
+ 𖥥Ejemplo: ${usedPrefix}Mediafire <enlace / link / url 
+ 𖥥𖥳Comando: ${usedPrefix}gdrive 
+ 𖥥Ejemolo: ${usedPrefix}gdrive *<enlace / link / url>*
+ 𖥥𖥳Comando: ${usedPrefix}tiktok 
+ 𖥥ejemplo:${usedPrefix}Tintok *<enlace / link / url*
+ 𖥥𖥳Comando: ${usedPrefix}ytmp3
+ 𖥥Ejemplo: ${usedPrefix}ytmp3 *<enlace / link / url* 
+ 𖥥𖥳Comando: ${usedPrefix}video
+ 𖥥Ejemplo: ${usedPrefix}video <enlace / link / url 
+ 𖥥𖥳Comando${usedPrefix}play.1 
+ 𖥥Ejemplo: ${usedPrefix}play.1 <texto / enlace / link / url 
+ 𖥥𖥳Comando: ${usedPrefix}play.2 
+ 𖥥Ejemplo: ${usedPrefix}play.2 <texto / enlace / link / url 
+ 𖥥𖥳Comando: ${usedPrefix}musica
+ 𖥥Ejemplo: ${usedPrefix}musica <texto 
+ 𖥥𖥳Comando: ${usedPrefix}spotify 
+ 𖥥Ejemplo: ${usedPrefix}spotify *texto*
+ 𖥥𖥳Comando: ${usedPrefix}imagen 
+ 𖥥Ejemplo: ${usedPrefix}spotify *texto*
+ 𖥥𖥳Comando: ${usedPrefix}pinteret *texto*
+ 𖥥𖥳Comando: ${usedPrefix}wallpaper 
+ 𖥥Ejemplo: ${usedPrefix}wallpaper *texto*
+ 𖥥𖥳Comando ${usedPrefix}wallpaper2 <texto 
+ 𖥥Ejemplo: ${usedPrefix}pptiktok <nombre de usuario 
+ 𖥥𖥳${usedPrefix}igstalk <nombre de usuario 
+ 𖥥𖥳${usedPrefix}igstory *<nombre de usuario>*_
+ 𖥥𖥳${usedPrefix}tiktokstalk <nombre de usuario 
  └────ׂ─ׂ─ׂ─ׂ── 
-
+┗─━─━──━─━∞◆∞━─━─━─━─━─┛
  ╔═════ RPG ═════╗  
  ║ ❒ ${usedPrefix}cazar a 
  ║ ❒ ${usedPrefix}aventura 
