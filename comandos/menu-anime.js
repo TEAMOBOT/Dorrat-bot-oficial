@@ -70,7 +70,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text}) => 
     };
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, "g"), (_, name) => "" + replace[name]);
     let str = `
-┌──「𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-」─
+┌──「𝐁𝐨𝐭𝐀𝐱𝐱𝐜」─
 ├➢ 𝐇𝐎𝐋𝐀 ${name}💖✨ 
 ├➢ 📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
 ├➢ ⏱️ 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
