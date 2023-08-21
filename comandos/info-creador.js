@@ -8,16 +8,13 @@ let handler = async (m, {conn, command, args}) => {
 
   //------------ BIO
   let teksbio = `
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/593959425714
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁 𝟷 𝙴𝚂 wa.me/573184314110*
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁 2 𝙴𝚂 wa.me/51993138466*
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁 3 𝙴𝚂 wa.me/595986674310*
+*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/528123422244
+*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁 𝟷 𝙴𝚂 wa.me/528180933455
 
 ───────[ INFORMACIÓN DEL BOT ]───────
 
-✅ *NOMBRE: DORRAT-BOT-MD*
-🐈 *Github:* https://github.com/DIEGO-OFC/DORRAT-BOT-MD
-🥏 *Whatsapp* wa.me/972529277520
+✅ *NOMBRE: 𝐁𝐨𝐭𝐀𝐱𝐱𝐜*
+🥏 *Whatsapp* wa.me/528180933455
 
 `;
   const sections = [
